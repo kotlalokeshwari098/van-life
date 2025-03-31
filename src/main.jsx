@@ -10,18 +10,16 @@ function Header() {
     <>
       <BrowserRouter>
         <header>
-
             <Link className='site-logo' to='/'>#VANLIFE</Link>
           <nav>
-
             <Link to='/vans'>Vans</Link>
 
           </nav>
         </header>
 
         <Routes>
-          <Route path='/' element={<Home />}>Home</Route>
-          <Route path='/vans' element={<Vans />}>vans</Route>
+          <Route path='/' element={<Home />}/>
+          <Route path='/vans' element={<Vans />}/>
         </Routes>
       </BrowserRouter>
     </>
