@@ -297,3 +297,13 @@ i[class*='van-type-'] {
   font-weight: bold;
   text-decoration: underline;
 }
+
+/* footer */
+footer{
+  width: 100vw;
+  text-align: center;
+  background: #252525;
+  color: #AAAAAA; 
+  padding: 20px;
+  font-size: 14px;
+}
